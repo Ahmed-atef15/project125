@@ -1,0 +1,82 @@
+html, body {
+    width: 100%;
+    height: 100%;
+ 
+  }
+  
+  .container {
+    position: center;
+    padding: 75px 0;
+    margin: 0 auto;
+    margin-top: 0;
+    width: 1140px;
+  }
+  
+ 
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    filter: blur(1px);
+    border-radius: 25px;
+  }
+  .item:hover {
+    flex: 7;
+    filter: blur(0px);
+  }
+  
+  .item-1 {
+    background-image: url("images.jpg");
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0px;
+  }
+  .item-2 {
+    background-image: url("https://alboslanews.com/UploadedFiles/News/202302071602289994544.jpeg");
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 25px;
+  }
+  
+  .item-3 {
+    background-image: url("https://img.youm7.com/ArticleImgs/2023/1/26/284388-%D9%81%D9%88%D8%A7%D8%A6%D8%AF-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%8A-%D9%88%D8%A3%D9%81%D8%B6%D9%84-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-(2).jpg");
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+  }
+  
+  .item-4 {
+    background-image: url("https://iadsb.tmgrup.com.tr/5a21a4/0/0/0/0/645/344?u=https://idsb.tmgrup.com.tr/ar/2019/03/18/-92--1552933794732.jpg");
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20px;
+  }
+  
+  .item-5 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS92WK-ZrkFTt3C586u9tAX8KTTsmPlrXmJjO_NihwAuZ01EKeLqjGFMKRh7h6On3PxRy8&usqp=CAU");
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15px;
+  }
+  
+  
+  .social {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+  }
+  .social img {
+    display: block;
+    width: 32px;
+  }
